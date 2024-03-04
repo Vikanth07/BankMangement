@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Statement</title>
+        <style>
+            label{
+                font-size: 30px;
+                display: block;
+            }
+            input{
+                width: 97%;
+                font-size: 20px;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+            button{
+                font-size: 20px;
+                padding: 10px;
+                background-color: rgb(93, 93, 225);
+                color: white;
+                border: 0cap;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: blue;
+            }
+            form{
+                border: 1px solid gray;
+                padding: 20px;
+                width: 50%;
+                margin-left: 25%;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="post" action="./statementlinking">
+            <label>Account Number</label>
+            <input type="text" id="ano" name="ano" required> 
+            <button type="submit">PrintStatement</button>
+        </form>
+    </body>
+</html>

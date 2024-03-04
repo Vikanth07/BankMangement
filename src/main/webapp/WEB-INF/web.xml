@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <servlet>
+    <servlet-name>spl</servlet-name>
+    <servlet-class>Registration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>spl</servlet-name>
+    <url-pattern>/registrationlinking</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>spl1</servlet-name>
+    <servlet-class>Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>spl1</servlet-name>
+    <url-pattern>/loginlinking</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>spl2</servlet-name>
+    <servlet-class>deposit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>spl2</servlet-name>
+    <url-pattern>/depositlinking</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>spl3</servlet-name>
+    <servlet-class>withdraw</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>spl3</servlet-name>
+    <url-pattern>/withdrawlinking</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>spl4</servlet-name>
+    <servlet-class>transfer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>spl4</servlet-name>
+    <url-pattern>/transferlinking</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>spl5</servlet-name>
+    <servlet-class>changepin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>spl5</servlet-name>
+    <url-pattern>/changepinlinking</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>spl6</servlet-name>
+    <servlet-class>statement</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>spl6</servlet-name>
+    <url-pattern>/statementlinking</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
